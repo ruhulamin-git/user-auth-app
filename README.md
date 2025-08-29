@@ -29,4 +29,4 @@ npm install
 
 # Start the development server
 npm run dev
-# Now visit: http://localhost:3000 #
+Now visit: http://localhost:3000 
