@@ -1,30 +1,32 @@
-User Auth App (Next.js + TypeScript + Tailwind)
+# User Auth App (Next.js + TypeScript + Tailwind)
 
-A simple authentication app built with Next.js (App Router), TypeScript, and Tailwind CSS.
-User data is stored in localStorage (used as a mock backend).
+A simple authentication app built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.  
+User data is stored in **localStorage** (used as a mock backend).
 
-✨ Features
+---
 
-Register new users
+## ✨ Features
+- Register new users  
+- Login & logout  
+- Forgot password (update password)  
+- Profile page (protected)  
+- LocalStorage-based storage  
+- Form validation (React Hook Form + Zod)  
 
-Login & logout
+---
 
-Forgot password (update password)
+## 🚀 Getting Started
 
-Profile page (protected)
+Run the following commands step by step:
 
-LocalStorage-based storage
-
-Form validation (React Hook Form + Zod)
-
-🚀 Getting Started
-# Clone
+```bash
+# Clone the repository
 git clone https://github.com/ruhulamin-git/user-auth-app.git
 cd user-auth-app
 
-# Install
+# Install dependencies
 npm install
 
-# Run
+# Start the development server
 npm run dev
-# Visit http://localhost:3000
+# Now visit: http://localhost:3000 #
